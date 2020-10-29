@@ -15,13 +15,3 @@ def find_the_cheese(foods_included)
     food == "cheddar" || food == "gouda" || food == "camembert"
   end
 end
-
-# def find_the_cheese(food)
-#   food.each do |food_type|
-#     cheese_types = ["cheddar", "gouda", "camembert"]
-#     if cheese_types.include?(food_type)
-#       return food_type
-#     end
-#   end
-#   nil
-# end
