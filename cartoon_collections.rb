@@ -1,4 +1,4 @@
-odds_and_evens = [1, 3, 2, 18, 5, 10, 24]def roll_call_dwarves(dwarves)
+def roll_call_dwarves(dwarves)
   dwarves.each_with_index{ |name, index| puts "#{index + 1}. #{name}"}
 end
 
