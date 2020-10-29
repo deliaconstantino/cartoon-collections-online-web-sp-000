@@ -11,6 +11,7 @@ def long_planeteer_calls(calls_array)
 end
 
 def find_the_cheese(food)
+  food.find
 end
 
 # def find_the_cheese(food)
